@@ -12,7 +12,8 @@ namespace TestProject
       {
          var person = new Person("Sheldon");
 
-         Assert.AreEqual(person.Name, "Sheldon");
+         Assert.AreNotEqual(person.Name, "Sheldon");
       }
    }
 }
+
